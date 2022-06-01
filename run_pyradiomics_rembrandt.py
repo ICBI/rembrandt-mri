@@ -16,7 +16,7 @@ from radiomics import featureextractor
 
 start_time = time.time()
 
-data_path ="/Users/cameliabencheqroun/Downloads/NITRC-multi-file-downloads"
+data_path ="/my_data_path"
 
 # Gerenate Rembrandt features 
 df_all = pd.DataFrame(columns=['ID','feature','value'])
